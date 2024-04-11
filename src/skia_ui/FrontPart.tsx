@@ -7,17 +7,19 @@ import {
   RadialGradient,
   vec,
 } from "@shopify/react-native-skia";
-import { COLORS, LINEAR_GRADIENT } from "../constants";
-
-const MARGINS = 40;
+import {
+  COLORS,
+  CONTAINER_CIRCLE_MARGINS,
+  LINEAR_GRADIENT,
+} from "../constants";
 
 const FrontPart = () => {
   const { width, height } = useWindowDimensions();
   const centeredWidth = width / 2;
   const centeredHeight = height / 2;
-  const containerCircleRadius = (width - MARGINS) / 2 + 2;
-  const mediumCircleRadius = (width - MARGINS) / 4.4;
-  const smallCircleRadius = (width - MARGINS) / 4.8;
+  const containerCircleRadius = (width - CONTAINER_CIRCLE_MARGINS) / 2 + 2;
+  const mediumCircleRadius = (width - CONTAINER_CIRCLE_MARGINS) / 4.4;
+  const smallCircleRadius = (width - CONTAINER_CIRCLE_MARGINS) / 4.8;
   return (
     <Group>
       <Circle
