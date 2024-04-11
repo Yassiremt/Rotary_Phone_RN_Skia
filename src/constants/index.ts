@@ -6,7 +6,7 @@ export const COLORS = {
   white: "#FFF",
 };
 
-export const LINEAR_GRADIENT = ["#FACF9E", "#0C0300", "#914405"];
+export const LINEAR_GRADIENT = ["#914405", "#0C0300", "#914405"];
 
 export const ANGLES = [
   (11 / 6) * Math.PI, // Position of Number 0

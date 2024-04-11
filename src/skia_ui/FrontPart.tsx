@@ -38,8 +38,8 @@ const FrontPart = () => {
       </Circle>
       <Circle cx={centeredWidth} cy={centeredHeight} r={mediumCircleRadius}>
         <LinearGradient
-          start={{ x: centeredWidth, y: centeredHeight + mediumCircleRadius }}
-          end={{ x: centeredWidth, y: centeredHeight - mediumCircleRadius }}
+          start={{ x: centeredWidth, y: centeredHeight - mediumCircleRadius }}
+          end={{ x: centeredWidth, y: centeredHeight + mediumCircleRadius }}
           colors={LINEAR_GRADIENT}
         />
       </Circle>
